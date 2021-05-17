@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.container{
+    margin: 0 auto;
+    overflow-x:auto;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+table>tbody>tr:last-child{
+    background-color: black;
+}
+
+table>tbody>tr:last-child>td>a{
+    color: #ddd;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
